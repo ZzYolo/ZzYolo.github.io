@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.tou{	
+	width: 100%;
+	height: 70px;
+	line-height: 80px;
+	
+	border-bottom: 1px 
+}
+
+.tou_a{	
+	width: 1500px;
+	height: 70px;
+	line-height: 80px;
+	margin-top: 15px;
+	margin-left: 180px;
+	
+	border-bottom: 1px 
+}
+
+.tou_a1{	
+	width: 1500px;
+	
+	line-height: 50px;
+	margin-top: 30px;
+	margin-left: 180px;
+	
+	border-bottom: 1px 
+}
+.tou_a2{	
+
+	line-height: 45px;
+
+}
+.ggw{
+	width: 1200px;
+	color: #000000;
+	margin: auto;
+	
+}
+.ggw1{
+	width: 1200px;
+	color: #DB2E2E;
+	margin: auto;
+}
+.ggw2{
+	width: 300px;
+	color: #DB2E2E;
+	margin: auto;
+}
+.tou .ggw{
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+}
+.tou_a.ggw{
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+}
+.logo{
+	width: 130px;
+	height: 130px;
+	
+}
+.logo img{
+	width: 100%;
+	height: 80px;
+	margin-top: 0px;
+}
+.nav{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+}
+.nav ul li{
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.nav ul li a{
+
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.wen{
+	background-color: #DB2E2E;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+
+.wen_x{
+	background-color: #DB2E2E;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.dong{
+	background-color: #DB2E2E;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.chan{
+	background-color: #DB2E2E;
+	color: #FFFFFF;
+	font-size: 15px;
+	
+}
+
+.s{
+	
+	background-color: #DB2E2E;
+	color: #FFFFFF;
+}
+
+.load{
+	background-color: #DB2E2E;
+	color: #FFFFFF;
+}
+.fot{
+	width: 100%;
+	height: 40px;
+	line-height: 60px;
+	color: #333;
+	background: #eee;
+	text-align: center;
+	font-size: 16px;
+}
+.banner{
+	width: 100%;
+	margin-top: 20px;
+}
+.banner img{
+	width: 100%;
+}
+.cp-box ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	justify-content: space-between;
+	
+}
+.cp-box ul li{
+	width: 48%;
+	border-bottom: 1px dashed #ccc;
+	margin-top: 20px;
+	padding: 20px 10px;
+}
+.cp-box ul li a{
+	display: block;
+	width: 100%;
+	
+}.cp-box ul li img{
+	float: left;
+	margin-right: 0px;
+	margin-left: 80px;
+}
+.cp-box ul li p{
+	font-weight: 600;
+	font-size: 20px;
+	color: #333;
+}
+.cp-box ul li span{
+	display: block;
+	color: #444;
+	width: 80%;
+	margin: 15px auto;
+	font-size: 16px;
+}
+.cp-box ul li button{
+	display: block;
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	background: #000;
+}
+.cp-title{
+	margin-top: 20px;
+	border-bottom: 2px solid #666;
+	text-align: center;
+}
+.cp-title h3{
+	font-size: 22px;
+	color: #333;
+	height: 35px;
+	line-height: 35px;
+}
+.cplist-box{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.cplist-box-l{
+	width: 560px;
+}
+.cplist-box-r{
+	width: 600px;
+}
+.cmb ul li{
+	display: inline-block;
+	margin: 0 10px;
+	padding: 0 20px;
+	border: 1px solid #666;
+}
+.cplist-box-tit{
+	font-size: 20px;
+	padding-top: 30px;
+}
+.cplist-box-tit p{
+	margin: 20px 0;
+	color: red;
+}
+.cmb {
+	margin: 30px 0;
+}
+.ljgm{
+	width: 80%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: #000;
+	margin: auto;
+}
+.cplist-box-l img{
+	max-width: 400px;
+}
+.cmb select{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+}
+.ljgm a{
+	color:  #fff;
+}
+.cplist-img{
+	width: 100%;
+	background: #efefef;
+	padding: 20px 0;
+}
+.cplist-img img{
+	width: 100%;
+}
+.gmy-list{
+	display: flex;
+	width: 60%;
+	height: 560px;
+	justify-content: space-between;
+	border: 1px solid #ccc;
+	margin: 20px auto;
+	flex-wrap: wrap;
+}
+.gmy-list-l{
+	width: 100%;
+	text-align: center;
+}
+.gmy-list-r{
+	width: 80%;
+	margin: auto;
+}
+.bt{
+	font-size: 18px;
+	padding: 10px 0;
+}
+.js{
+	font-size: 16px;
+	color: red;
+	padding: 10px 0;
+}
+.num{
+	color: #444;
+	font-size: 16px;
+}
+.qrgm{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	background: #CF0A2C;
+	margin: 15px auto;
+}
+.qrgm a{
+	color: #fff;
+	font-size: 16px;
+}
+.tj-box{
+	width: 90%;
+	height: 220px;
+	background: #EFF6FC;
+	border: 1px solid #CFDEF1;
+	margin: 30px 0;
+	padding: 0 5%;
+}
+.tj-box h3{
+	width: 100%;
+	font-size: 30px;
+	color: #333333;
+	padding: 60px 0 0 0;
+}
+.tj-box a{
+	display: block;
+	color: #333;
+	font-size: 18px;
+	margin-top: 30px;
+	text-decoration: underline;
+}
+.zc-box{
+	width: 1200px;
+	height: 400px;
+	margin: 60px auto;
+	
+	border: 1px dashed #ccc;
+}
+.zc-box11{
+	width: 420px;
+	height: 360px;
+	margin: 60px auto;
+	
+	border: 1px dashed #ccc;
+}
+.zc-title{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+	color:  #000000;
+}
+.zc-box11 label{
+	
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+.name{
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 200px;
+	text-align: center;
+}
+.phone{
+	width: 100%;
+	margin-top: 50px;
+	margin-left: 200px;
+	text-align: center;
+}
+.tj1{
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-align: center;
+}
+.zc-box label span{
+	display: inline-block;
+	width: 80px;
+	text-align: center;
+	
+}
+.zc-box label input{
+	width: 220px;
+	height: 25px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.zc-box button{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	background: #DB2E2E;
+	color: #FFFFFF;
+}
+.zc-box11 button{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	background: #DB2E2E;
+	color: #FFFFFF;
+}
+
+
+.tj-box p{
+	margin:auto;
+	font-size: 20px;
+	margin-top: 30px;
+	color: #444;
+}
+.ddqr{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 22px;
+	color: #333;
+	border-bottom: 1px solid #ccc;
+}
+.tj-box p span{
+	color: #CF0A2C;
+	font-weight: 600;
+}
+.vnjs-box{
+	width: 100%;
+	background: #efefef;
+}
+.vnjs-box p{
+	padding: 30px;
+	font-size: 16px;
+	line-height: 1.8;
+	color: #333;
+	text-align: justify;
+}
+.knxh-box ul{
+	display: flex;
+	justify-content: space-between;
+	padding: 60px 0;
+}
+.knxh-box ul li{
+	width: 280px;
+	text-align: center;
+	padding: 10px 0;
+	border: 1px dashed #ccc;
+}
+.knxh-box ul li a{
+	color: #333;
+}
